@@ -64,5 +64,11 @@ public class Base extends AppCompatActivity {
 	}
 
 
+	public void menuSettings(MenuItem m ){
+
+		goToActivity(this,Settings.class,null);
+	}
+
+
 
 }
